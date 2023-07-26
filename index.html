@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp.in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <img id="logo" src="/images/logo.svg" alt="">
+        <div id="container">
+            <div id="formulario">
+                <div id="title">
+                    <img id="loginIcon" src="/images/log-in.svg" alt="">
+                    <h1>Faça seu login</h1>
+                </div>
+                <p>Entre com suas informações de cadastro.</p>
+                <form action="">
+                    <div>
+                        <label class="label" for="email">E-mail</label>
+                        <div id="inputMail">
+                            <img class="icon" id="mailIcon" src="/images/mail.svg" alt="">
+                            <img class="icon hidden" id="mailIconFocus" src="/images/mail-focus.svg" alt="">
+                            <input id="email" type="email" class="input" placeholder="Digite seu e-mail">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="label" for="password">Senha</label>
+                        <div id="inputPassword">
+                            <img class="icon" id="lockIcon" src="/images/lock.svg" alt="">
+                            <img class="icon hidden" id="lockIconFocus" src="/images/lock-focus.svg" alt="">
+                            <input id="password" type="password" class="input" placeholder="Digite sua senha">
+                            <img class="icon" src="/images/eye.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="rememberMeBox">
+                        <div id="inputRememberMe">
+                            <input id="rememberMe" type="checkbox">
+                            <label for="rememberMe">Lembrar-me</label>
+                        </div>
+                        <a href="">Esqueci minha senha</a>
+                    </div>
+                    <button><strong id="textButton">ENTRAR</strong></button><br>
+                    <div id="registreSe">
+                        <a href="">Não tem uma conta? <strong>Registre-se</strong></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div id="picture">
+        <img src="/images/side-image.jpg" alt="">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
